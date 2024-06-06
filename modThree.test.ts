@@ -19,11 +19,11 @@ describe('modThree Function', () => {
     expect(modThree('0')).toBe(0);
   });
 
-  it('should return 1 for input "10"', () => {
+  it('should return 2 for input "10"', () => {
     expect(modThree('10')).toBe(2);
   });
 
-  it('should return 2 for input "11"', () => {
+  it('should return 0 for input "11"', () => {
     expect(modThree('11')).toBe(0);
   });
   it('should return 0 for input "0011" with leading "0"s', () => {
