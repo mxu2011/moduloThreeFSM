@@ -1,0 +1,40 @@
+{
+  "name": "policyreporter-finitestatemachine",
+  "version": "1.0.0",
+  "description": "A Node.js application implementing a Modulo Three Finite State Machine for processing input strings efficiently.",
+  "engines": {
+    "npm": ">=10.7.0",
+    "node": ">=20.14.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watch",
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint . --ext .ts,.tsx --fix"
+  },
+  "keywords": [
+    "finite state machine",
+    "FSM",
+    "modulo three",
+    "Node.js",
+    "typescript",
+    "jest"
+  ],
+  "author": "Martin Xu",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.4",
+    "typescript": "^5.4.5",
+    "eslint": "^8.36.0",
+    "@typescript-eslint/parser": "^5.30.0",
+    "@typescript-eslint/eslint-plugin": "^5.30.0",
+    "prettier": "^2.7.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1"
+  }
+}
